@@ -1,5 +1,5 @@
 # 02.Creative Loading Animation
-로딩 중인 화면을 애니메이션으로 구현
+로딩 중인 화면을 애니메이션으로 구현   
 <img src="./assets/video.gif">
 
 ## Study
