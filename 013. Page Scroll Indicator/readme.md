@@ -20,7 +20,7 @@
 
 <img src="https://apost.dev/content/images/2023/12/scrollheight.jpg" style="width:500px">
 
-### 5. documentElement.scrollTop
+### 5. Element.scrollTop
 요소 맨 상단에부터 현재 화면에 보이는 부분까지의 거리를 측정한 것
 
 <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FBT8K3%2FbtrGhVK3Ogw%2FPZD3UkiyEUTBmju6hrtTmk%2Fimg.png" style="width:500px">
