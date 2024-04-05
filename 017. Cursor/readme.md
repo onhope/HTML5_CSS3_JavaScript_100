@@ -6,6 +6,8 @@
 
 ## 학습 
 
+### 1. screenXY, pageXY, clientXY, offsetXY
+
 <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FrCXEA%2FbtqTENH2CxO%2F5kLO54ytpEhZis68uTdegK%2Fimg.png" style="width: 800px">
 
 screenX, Y | pageX, Y | clientX, Y | offsetX, Y
