@@ -2,6 +2,8 @@
 
 copy 버튼을 클릭하면 복사가 되고 move 버튼을 클릭하면 복사한 내용을 이동
 
+<img src="./024. Copy and Move.gif">
+
 ## 학습 
 ### 1. HTMLInputElement.select()
 `<textarea>`요소 안에 텍스트나 `<input>`의 텍스트 필드에 포함된 요소를 선택하는 메소드 
