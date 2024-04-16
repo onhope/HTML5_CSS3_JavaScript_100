@@ -23,19 +23,35 @@ DOM의 최소 width, height를 설정하는데, <u>div의 내용이 없거나 �
 조건부 연산자는 물음표?로 표시합니다. 피연산자가 세 개이기 때문에 조건부 연산자를 '삼항(ternary) 연산자’라고 부르는 사람도 있습니다.
 
 ```
-function getFee(isMember) {
-  return isMember ? '$2.00' : '$10.00';
-}
+let result = condition ? value1 : value2;
 
-console.log(getFee(true));
-// Expected output: "$2.00"
+// 평가 대상인 condition이 
+truthy라면 value1이, 그렇지 않으면 value2가 반환
+```
 
-console.log(getFee(false));
-// Expected output: "$10.00"
-
-console.log(getFee(null));
-// Expected output: "$10.00"
+**물음표 연산자?를 여러 개 연결하면 복수의 조건을 처리 가능**
 
 ```
+let age = prompt('나이를 입력해주세요.', 18);
+
+let message = (age < 3) ? '아기야 안녕?' :
+  (age < 18) ? '안녕!' :
+  (age < 100) ? '환영합니다!' :
+  '나이가 아주 많으시거나, 나이가 아닌 값을 입력 하셨군요!';
+
+alert( message );
+```
+
+
+## 출처
+**input type="password"**      
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/password
+
+
+**조건(삼항)연산자**     
+https://ko.javascript.info/ifelse    
+
+
+ 
 
   
