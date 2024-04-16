@@ -1,6 +1,6 @@
 const selectField = document.getElementById("selectField");
 const selectText = document.getElementById("selectText");
-const options = document.getElementsByClassName("options")
+const options = document.getElementsByClassName("options");
 const list = document.getElementById("list");
 const arrow = document.getElementById("arrowIcon");
 
