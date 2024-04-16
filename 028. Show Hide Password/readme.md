@@ -16,9 +16,26 @@ DOM의 최소 width, height를 설정하는데, <u>div의 내용이 없거나 �
 공간차지|O|X
 스타일링|O|X
 
-### 3. JS에서 HTML 태그 속성에 접근하기 
-### 4. input type : password
-값이 *** 으로 표시된다. 
+### 3. input type : password
+ 일반적으로 각 문자를 별표("*") 또는 점("•")과 같은 기호로 대체하여 텍스트를 읽을 수 없도록 가려지는 한 줄의 일반 텍스트 편집기 컨트롤로 표시
 
-### 5. 물음표 함수 
+### 4. 조건 (삼항) 연산자 (='물음표(question mark) 연산자’)
+조건부 연산자는 물음표?로 표시합니다. 피연산자가 세 개이기 때문에 조건부 연산자를 '삼항(ternary) 연산자’라고 부르는 사람도 있습니다.
+
+```
+function getFee(isMember) {
+  return isMember ? '$2.00' : '$10.00';
+}
+
+console.log(getFee(true));
+// Expected output: "$2.00"
+
+console.log(getFee(false));
+// Expected output: "$10.00"
+
+console.log(getFee(null));
+// Expected output: "$10.00"
+
+```
+
   
